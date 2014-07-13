@@ -38,7 +38,7 @@ Repo directory
         unnamed-chunk-5.png
 ````
 
-Below I have retained the original instructions that were part of the original coursework template.
+Below I have retained the instructions that were part of the original coursework template.
 
 ## Introduction
 
