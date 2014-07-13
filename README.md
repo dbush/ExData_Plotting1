@@ -12,8 +12,7 @@ To run the scripts:
 * `source('plot1.R')` to run the first script.
 * Repeat step 4 for each of the other scripts.
 
-Expected file layout:
----------------------
+## Expected file layout
 
 ````
 Repo directory
@@ -39,7 +38,11 @@ Repo directory
         unnamed-chunk-5.png
 ````
 
-Below I have retained the instructions that were part of the original coursework template.
+## How is the code arranged?
+
+Each of the plot*.R scripts source the loadData.R script and then calls the loadData() function to read the data from the household_power_consumption.txt file. The function also converts the date and time columns to be the correct data types and subsets the data to just have the 2-day period in February, 2007 that is required. 
+
+Each plot*.R file then goes on to the steps required to plot the data as described below in the original coursework instructions.
 
 ## Introduction
 
