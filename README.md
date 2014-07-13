@@ -1,6 +1,6 @@
 ## Exploratory Data Analysis - Course Project 1
 
-This Git repository contains my submission for the first course project for the Coursera "Exploratory Data Analysis" course (July 2014).
+This GitHub repository contains my submission for the first course project of the Coursera "Exploratory Data Analysis" course (July 2014).
 
 It contains 4 scripts (plot1.R, plot2.R, plot3.R and plot4.R) that generate four different plot outputs that are also added to the repository (plot1.png, plot2.png, plot3.png and plot4.png).
 
