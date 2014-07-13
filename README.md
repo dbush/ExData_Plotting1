@@ -4,7 +4,8 @@ This GitHub repository contains my submission for the first course project of th
 
 It contains 4 scripts (plot1.R, plot2.R, plot3.R and plot4.R) that generate four different plot outputs that are also added to the repository (plot1.png, plot2.png, plot3.png and plot4.png).
 
-* To run the scripts clone the repository using this command: `git clone https://github.com/dbush/ExData_Plotting1.git`
+To run the scripts:
+* Clone the repository using this command: `git clone https://github.com/dbush/ExData_Plotting1.git`
 * Download the dataset zip file from this link: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> 
 * Extract the household_power_consumption.txt from the zip file. Put this file into the route of the cloned repo.
 * Set the current directory to be the same directory as the root of the repo using the `setwd(...)` function or use the `Tools | Change Working Dir...` menu in RStudio.
