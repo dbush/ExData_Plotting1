@@ -1,3 +1,45 @@
+## Exploratory Data Analysis - Course Project 1
+
+This Git repository contains my submission for the first course project for the Coursera "Exploratory Data Analysis" course (July 2014).
+
+It contains 4 scripts (plot1.R, plot2.R, plot3.R and plot4.R) that generate four different plot outputs that are also added to the repository (plot1.png, plot2.png, plot3.png and plot4.png).
+
+1) To run the scripts clone the repository using this command: `git clone https://github.com/dbush/ExData_Plotting1.git`
+2) Download the dataset zip file from this link: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> 
+3) Extract the household_power_consumption.txt from the zip file. Put this file into the route of the cloned repo.
+4) Set the current directory to be the same directory as the root of the repo using the `setwd(...)` function or use the `Tools | Change Working Dir...` menu in RStudio.
+5) `source('plot1.R')` to run the first script.
+6) Repeat step 4 for each of the other scripts.
+
+Expected file layout:
+---------------------
+
+````
+Repo directory
+|   exdata-data-household_power_consumption.zip
+|   household_power_consumption.txt
+|   loadData.R
+|   plot1.png
+|   plot1.R
+|   plot2.png
+|   plot2.R
+|   plot3.png
+|   plot3.R
+|   plot4.png
+|   plot4.R
+|   README.md
+|
++---.git (contents removed for clarity)
+|
+\---figure
+        unnamed-chunk-2.png
+        unnamed-chunk-3.png
+        unnamed-chunk-4.png
+        unnamed-chunk-5.png
+````
+
+Below have retained the original instructions that were part of the original template.
+
 ## Introduction
 
 This assignment uses data from
