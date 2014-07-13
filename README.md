@@ -4,20 +4,15 @@ This GitHub repository contains my submission for the first course project of th
 
 It contains 4 scripts (plot1.R, plot2.R, plot3.R and plot4.R) that generate four different plot outputs that are also added to the repository (plot1.png, plot2.png, plot3.png and plot4.png).
 
-1) To run the scripts clone the repository using this command: `git clone https://github.com/dbush/ExData_Plotting1.git`
+To run the scripts:
+* Clone the repository using this command: `git clone https://github.com/dbush/ExData_Plotting1.git`
+* Download the dataset zip file from this link: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> 
+* Extract the household_power_consumption.txt from the zip file. Put this file into the root directory of the cloned repo.
+* Set the current directory to be the same directory as the root of the repo using the `setwd(...)` function or use the `Tools | Change Working Dir...` menu in RStudio.
+* `source('plot1.R')` to run the first script.
+* Repeat step 4 for each of the other scripts.
 
-2) Download the dataset zip file from this link: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> 
-
-3) Extract the household_power_consumption.txt from the zip file. Put this file into the route of the cloned repo.
-
-4) Set the current directory to be the same directory as the root of the repo using the `setwd(...)` function or use the `Tools | Change Working Dir...` menu in RStudio.
-
-5) `source('plot1.R')` to run the first script.
-
-6) Repeat step 4 for each of the other scripts.
-
-Expected file layout:
----------------------
+## Expected file layout
 
 ````
 Repo directory
@@ -43,7 +38,11 @@ Repo directory
         unnamed-chunk-5.png
 ````
 
-Below I have retained the instructions that were part of the original coursework template.
+## How is the code arranged?
+
+Each of the plot*.R scripts source the loadData.R script and then calls the loadData() function to read the data from the household_power_consumption.txt file. The function also converts the date and time columns to be the correct data types and subsets the data to just have the 2-day period in February, 2007 that is required. 
+
+Each plot*.R file then goes on to the steps required to plot the data as described below in the original coursework instructions.
 
 ## Introduction
 
